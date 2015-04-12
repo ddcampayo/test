@@ -1,0 +1,12 @@
+ cd
+ mkdir test
+ git init test
+ cd test
+ vi README
+ git add README 
+ git add Kyoto\ -\ string.ipynb 
+ ls
+ git commint -m "test"
+ git commit -m "test"
+ git remote add origin https://github.com/ddcampayo/test.git
+ git push origin master
